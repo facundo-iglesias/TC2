@@ -1,0 +1,17 @@
+* C:\users\facu\Documents\Mi_repositorio\TC2\Trabajo_semanal2\simulacion\simulacion.asc
+XU1 N001 0 N002 opamp Aol=100K GBW=10Meg
+XU2 0 N005 Vo opamp Aol=100K GBW=10Meg
+XU3 0 N004 N003 opamp Aol=100K GBW=10Meg
+R1 N001 Vin 1k
+R2 N002 N001 30k
+C1 N002 N001 100µ
+R3 Vo N001 10k
+R4 N004 N003 10k
+R5 Vo N004 10k
+C2 N003 N005 100µ
+R6 N005 N002 10k
+V1 Vin 0 AC 1
+.lib opamp.sub
+.ac dec 1000 0.0001 1000
+.backanno
+.end

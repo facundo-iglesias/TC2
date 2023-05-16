@@ -13,6 +13,6 @@ XU3 N005 Vout N004 opamp Aol=100K GBW=10Meg
 C4 N005 N004 1
 R4 N006 0 1
 .lib opamp.sub
-.ac dec 100000 0.0001 10k
+.ac dec 100000 0.0001 10
 .backanno
 .end

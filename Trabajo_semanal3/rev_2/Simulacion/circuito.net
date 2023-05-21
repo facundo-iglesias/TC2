@@ -1,0 +1,12 @@
+* Z:\home\facu\Documentos\Mi_repositorio\TC2\Trabajo_semanal3\rev_2\Simulacion\circuito.asc
+V1 Vin 0 AC 1
+XU1 N001 N002 N001 opamp Aol=100K GBW=10Meg
+L2 N001 Vout 1.006
+C1 Vout 0 1
+R3 N002 Vin 2.023
+C2 N002 0 1
+R1 Vout 0 2.023
+.lib opamp.sub
+.ac dec 100000 0.001 1k
+.backanno
+.end

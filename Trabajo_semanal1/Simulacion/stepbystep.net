@@ -1,0 +1,13 @@
+* Z:\home\facu\Documentos\Mi_repositorio\TC2\Trabajo_semanal1\Simulacion\stepbystep.asc
+R1 N001 Vin {R1}
+R2 Vout N001 {R2}
+R3 0 N002 1k
+C1 N002 Vin 1µ
+V1 Vin 0 AC 1
+XU1 N001 N002 Vout opamp Aol=100K GBW=10Meg
+.ac dec 100000 1 100000
+.lib opamp.sub
+.step param R1 0.95 1.05 0.05
+.step param R2 0.95 1.05 0.05
+.backanno
+.end

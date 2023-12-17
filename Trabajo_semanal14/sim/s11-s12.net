@@ -1,0 +1,12 @@
+* Z:\home\facu\Documentos\Mi_repositorio\Trabajo_semanal14\sim\s11-s12.asc
+V1 V1 0 AC 1 Rser=1
+L1 V1 N001 1.255024272
+L2 N001 V2 0.1921893236
+C1 N001 0 0.5527864045
+R1 V2 0 1
+.net I(R1) V1
+.ac dec 100000 0.001 100
+* I1
+* -I2
+.backanno
+.end
